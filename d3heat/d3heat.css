@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+/***************************/
+#container {
+	text-align: center;
+	width: 1500px;
+	margin: auto;
+}
+
+#legend {
+	position: absolute;
+	width: 440px;
+	margin: auto;
+	margin-left: 150px;
+	margin-top: 550px;
+}
+/*****************************/
+#title, #description {
+	transform: translate(0, 150%);
+}
+
+#years {
+	margin-left: 750px;
+	position: absolute;
+	margin-top: 220px;
+	transform: translate(0%, 1700%);
+}
+
+#months {
+	margin-left: 0px;
+	position: absolute;
+	margin-top: 220px;
+	transform: translate(0%, 500%) rotate(-90deg);
+}
+/*****************************/
+.cell:hover {
+	stroke: black;
+	stroke-width: 0.1rem;
+}
+
+.tooltip {
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+	background-color: black;
+	opacity: 80%;
+	color: white;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	white-space: nowrap;
+	
+	display: none;
+}
+
+.legend {
+	stroke: black;
+	stroke-width: 0.1rem;
+}
